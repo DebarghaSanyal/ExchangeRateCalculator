@@ -4,8 +4,8 @@
 }
 
 body {
-    /* background-image: url(/BeastBolt-Arena/images/cover\ pg.jpg); */
-    background-size: cover;
+    background-image: url(/ExchangeRateCalculator/stock.jpg);
+    background-size: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,13 +14,19 @@ body {
 }
 
 .container {
+    background-image: url(/ExchangeRateCalculator/Currency.jpg);
     border: 2px solid rgb(5, 22, 19);
     background-color: #fff;
     padding: 2rem;
     border-radius: 1rem;
     min-height: 45vh;
     width: 40vh;
-    box-shadow: 0 0 25px 8px rgb(179, 10, 154);
+    box-shadow: 0 0 25px 8px rgb(7, 65, 142);
+}
+
+.container h2 {
+    color: rgb(19, 66, 153);
+    text-align: center;
 }
 
 form {
@@ -48,6 +54,7 @@ form input {
     justify-content: space-between;
     align-items: center;
     margin-top: 2rem;
+    font-weight: 800;
 }
 
 .dropdown i {
@@ -66,17 +73,22 @@ form input {
     width: 6rem;
     border-radius: 0.5rem;
     border: 1px solid lightgray;
-    /* background-color: #832161; */
+    background-color: #8ff459;
 }
 
 .select-container select {
     font-size: 1rem;
     width: auto;
+    /* background-color: #f4e4ba; */
 }
 
 .msg {
     margin: 2rem 0 2rem 0;
+    padding: 10px 10px 10px;
+    border-radius: 5px;
+    border: 2px solid #e1d474;
     font-weight: 600;
+    background-color: #fff;
 }
 
 button:hover {
@@ -84,9 +96,22 @@ button:hover {
 }
 
 form button {
+    border: 2px solid #a8f979;
     height: 3rem;
     background-color: #af4d98;
     color: #fff;
     font-size: 1.15rem;
     cursor: pointer;
+}
+
+.dev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dev p {
+    text-align: right;
+    font-size: smaller;
+    color: rgb(136, 193, 243);
 }
